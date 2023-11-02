@@ -6,7 +6,7 @@ inputValue.addEventListener("input", oninputValueChange);
 function oninputValueChange (event) {
         outputValue.textContent = event.target.value;
 
-        if (inputValue.textContent = ''){
+        if (inputValue.textContent == ''){
                 return "Anonymous"
                 }   
 } 
